@@ -4,7 +4,7 @@ module.exports = defineConfig({
   devServer: {
     allowedHosts: [
       'localhost',
-      'example.com',
+      'https://frontend-0aaz.onrender.com/',
       '192.168.1.1',
     ],
     }
