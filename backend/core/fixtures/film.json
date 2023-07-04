@@ -1,0 +1,116 @@
+[
+{
+    "model": "cinema.film",
+    "pk": 1,
+    "fields": {
+        "title": "Alien",
+        "description": "Alien is a 1979 science fiction horror film directed by Ridley Scott and written by Dan O'Bannon. Based on a story by O'Bannon and Ronald Shusett, it follows the crew of the commercial space tug Nostromo, who, after coming across a mysterious derelic",
+        "publish_date": "1979-05-25",
+        "categs": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 2,
+    "fields": {
+        "title": "Aliens",
+        "description": "Aliens is a 1986 science fiction action film written and directed by James Cameron. It is the sequel to the 1979 science fiction horror film Alien, and the second film in the Alien franchise. Set in the far future, it stars Sigourney Weaver as Ellen",
+        "publish_date": "1986-07-18",
+        "categs": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 3,
+    "fields": {
+        "title": "Casino",
+        "description": "Casino is a 1995 American epic crime film directed by Martin Scorsese, produced by Barbara De Fina and distributed by Universal Pictures. It is based on the 1995 nonfiction book Casino: Love and Honor in Las Vegas[3] by Nicholas Pileggi, who also co-",
+        "publish_date": "1995-11-22",
+        "categs": [
+            5
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 4,
+    "fields": {
+        "title": "Analyze This",
+        "description": "Analyze This is a 1999 American mafia comedy film directed by Harold Ramis, who co-wrote the screenplay with playwright Kenneth Lonergan, and Peter Tolan. The plot follows a crisis-stricken mafioso (Robert De Niro) who solicits the assistance of a re",
+        "publish_date": "1999-03-05",
+        "categs": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 5,
+    "fields": {
+        "title": "Analyze That",
+        "description": "Analyze That is a 2002 American mafia comedy film directed by Harold Ramis and produced by Paula Weinstein and Jane Rosenthal. The film is a sequel to the 1999 film Analyze This. The film starred Robert De Niro and Billy Crystal who respectively repr",
+        "publish_date": "2002-12-06",
+        "categs": [
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 6,
+    "fields": {
+        "title": "The Matrix",
+        "description": "The Matrix is a 1999 science fiction action film[5][6] written and directed by the Wachowskis.[a] It is the first installment in the Matrix film series, starring Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, and Joe Pantoliano, an",
+        "publish_date": "1999-03-24",
+        "categs": [
+            1
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 7,
+    "fields": {
+        "title": "The Fellowship of the ring",
+        "description": "The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson, based on 1954's The Fellowship of the Ring, the first volume of the novel",
+        "publish_date": "2001-12-19",
+        "categs": [
+            3
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 8,
+    "fields": {
+        "title": "Pan's Labyrinth",
+        "description": "Pan's Labyrinth (Spanish: El laberinto del fauno, lit. 'The Labyrinth of the Faun') is a 2006 fantasy horror film[4][5][6][7] written, directed and co-produced by Guillermo del Toro. A Spanish-Mexican[2] production, the film stars Ivana Baquero, Serg",
+        "publish_date": "2006-05-27",
+        "categs": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "cinema.film",
+    "pk": 9,
+    "fields": {
+        "title": "Galaxy Quest",
+        "description": "Galaxy Quest is a 1999 American science-fiction comedy film directed by Dean Parisot and written by David Howard and Robert Gordon. A parody of and homage to science-fiction films and series, especially Star Trek and its fandom, the film depicts the",
+        "publish_date": "1999-12-25",
+        "categs": [
+            1,
+            4
+        ]
+    }
+}
+]

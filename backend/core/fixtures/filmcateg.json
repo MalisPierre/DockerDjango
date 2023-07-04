@@ -1,0 +1,42 @@
+[
+{
+    "model": "cinema.filmcateg",
+    "pk": 1,
+    "fields": {
+        "title": "Sci-Fi",
+        "description": "Sci-Fi"
+    }
+},
+{
+    "model": "cinema.filmcateg",
+    "pk": 2,
+    "fields": {
+        "title": "Horror",
+        "description": "Horror"
+    }
+},
+{
+    "model": "cinema.filmcateg",
+    "pk": 3,
+    "fields": {
+        "title": "Fantasy",
+        "description": "Fantasy"
+    }
+},
+{
+    "model": "cinema.filmcateg",
+    "pk": 4,
+    "fields": {
+        "title": "Comedy",
+        "description": "Comedy"
+    }
+},
+{
+    "model": "cinema.filmcateg",
+    "pk": 5,
+    "fields": {
+        "title": "Mafia",
+        "description": "Mafia"
+    }
+}
+]

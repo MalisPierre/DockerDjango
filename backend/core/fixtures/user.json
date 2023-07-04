@@ -1,0 +1,38 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$WWOp03XRGS41QTRuOUvraA$x6hreKYCuOzcysTcEQA5XTQpkI+OEiSRwmhrSbms838=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "sudo",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-26T00:38:09.445Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$QG6Os8KPwsLfFVj8lndaxo$MT7okl9H5ejIvipt/csoLl0WZB49FTSNkrHDUt/8NcM=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "user",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-26T00:39:07.553Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
