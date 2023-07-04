@@ -7,5 +7,6 @@ module.exports = defineConfig({
       'https://frontend-0aaz.onrender.com/',
       '192.168.1.1',
     ],
+    disableHostCheck: true
     }
 })
