@@ -51,7 +51,7 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
 ]
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 ALLOWED_HOSTS.extend(
     filter(

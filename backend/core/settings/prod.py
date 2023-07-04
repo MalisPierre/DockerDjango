@@ -28,6 +28,12 @@ DEBUG = True
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
+import dj_database_url
+
+DATABASES = {
+    "default": dj_database_url.parse(config('DB_FULL'))
+}
+'''
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
@@ -38,7 +44,7 @@ DATABASES = {
         "PORT": config("DB_PORT", cast=int),
     }
 }
-
+'''
 
 CORS_ALLOWED_ORIGINS = [
 ]
