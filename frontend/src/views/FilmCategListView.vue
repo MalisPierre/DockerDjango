@@ -21,7 +21,7 @@
     },
     methods: {
       async getData() {
-        const res = await fetch("localhost:8000/api_cinema/list/");
+        const res = await fetch("https://backend-1rbv.onrender.com/api_cinema/list/");
         const finalRes = await res.json();
         this.listItems = finalRes;
         console.log("DATA = " + finalRes);
@@ -40,7 +40,7 @@
   const listItems = ref([]);
 
   async function getData() {
-    const res = await fetch("http://localhost:8000/api_cinema/list/");
+    const res = await fetch("https://backend-1rbv.onrender.com/api_cinema/list/");
     const finalRes = await res.json();
     listItems.value = finalRes;
   }
