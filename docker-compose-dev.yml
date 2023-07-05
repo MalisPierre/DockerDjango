@@ -4,6 +4,7 @@ services:
 
   backend:
     container_name: backend
+    command: python manage.py runserver 0.0.0.0:8000
     build:
       context: ./backend
     ports:
@@ -22,5 +23,17 @@ services:
     depends_on:
       - backend
 
+  #proxy:
+   # image: jwilder/nginx-proxy:alpine
+   # container_name: nginx-proxy
+   # ports:
+   #   - "80:80"
+   #   - "443:443"
+   # volumes:
+  #    - /var/run/docker.sock:/tmp/docker.sock:ro
+  #    - ./certs:/etc/nginx/certs
+   # restart: always
+   # depends_on:
+   #   - backend
       #- ./frontend:/frontend
       #- ./data/web:/vol/web

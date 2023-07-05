@@ -6,7 +6,7 @@
         {{ item.title }}
       </li>
     </ul>
-    enddde
+    -end
   </div>
 
 </template>
