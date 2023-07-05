@@ -21,6 +21,11 @@ const routes = [
     name: 'filmcateg_list',
     component: FilmCategListView//FilmCategListView
   },
+  {
+    path: '/film_list',
+    name: 'film_list',
+    component: FilmListView//FilmCategListView
+  },
 ]
 
 const router = createRouter({

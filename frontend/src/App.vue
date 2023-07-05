@@ -1,7 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/filmcateg_list">Categories</router-link>
+    <router-link to="/film_list">Films</router-link>
   </nav>
  <div class="hello">
     <div style="padding:40px;">

@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>List of film Categories:</h1>
+    <h1>List of films:</h1>
     <ul>
       <li v-for="item in listItems">
         {{ item.title }}
@@ -40,7 +40,7 @@
   const listItems = ref([]);
 
   async function getData() {
-    const res = await fetch("https://backend-1rbv.onrender.com/api_cinema/list_filmcateg/");
+    const res = await fetch("https://backend-1rbv.onrender.com/api_cinema/list_film/");
     const finalRes = await res.json();
     listItems.value = finalRes;
   }

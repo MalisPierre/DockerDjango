@@ -18,5 +18,6 @@ from . import views
 
 urlpatterns = [
      path('', views.ApiOverview, name='home'),
-     path('list/', views.list_film, name='list_film'),
+     path('list_film/', views.list_film, name='list_film'),
+     path('list_filmcateg/', views.list_filmcateg, name='list_filmcateg'),
 ]
